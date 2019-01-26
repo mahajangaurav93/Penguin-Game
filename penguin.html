@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Whack a Penguine</title>
+    <link rel="icon" href="./images/penguin-icon.png">
+    <link rel="stylesheet" href="../../bootstrap/css/bootstrap.min.css" type="text/CSS">
+    <link rel="stylesheet" href="./penguin.css" type="text/CSS">
+    <script src="./penguin.js"></script>
+    <style>
+        #penguindiv {
+            background-color: cyan;
+            width: 60%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 30px;
+            font-family: cursive;
+        }
+
+        .col-4 {
+            cursor: pointer;
+            margin: 0;
+            padding: 0;
+            height: 170px;
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container row" id="penguindiv">
+        <h1 id="para" class="text-center col-12"><b>Find the Penguin</b></h1>
+        <button id="dButton" class="col-4 btn btn-primary d-none">Start New Game</button>
+        <img src="./images/mound.png" alt="mound" onmouseover="MouseOver1()" onmouseout="MouseOut1()" onclick="penguin1()" id="penguin1" class="col-4">
+        <img src="./images/mound.png" alt="mound" onmouseover="MouseOver2()" onmouseout="MouseOut2()" onclick="penguin2()" id="penguin2" class="col-4">
+        <img src="./images/mound.png" alt="mound" onmouseover="MouseOver3()" onmouseout="MouseOut3()" onclick="penguin3()" id="penguin3" class="col-4">
+        <img src="./images/mound.png" alt="mound" onmouseover="MouseOver4()" onmouseout="MouseOut4()" onclick="penguin4()" id="penguin4" class="col-4">
+        <img src="./images/mound.png" alt="mound" onmouseover="MouseOver5()" onmouseout="MouseOut5()" onclick="penguin5()" id="penguin5" class="col-4">
+        <img src="./images/mound.png" alt="mound" onmouseover="MouseOver6()" onmouseout="MouseOut6()" onclick="penguin6()" id="penguin6" class="col-4">
+        <img src="./images/mound.png" alt="mound" onmouseover="MouseOver7()" onmouseout="MouseOut7()" onclick="penguin7()" id="penguin7" class="col-4">
+        <img src="./images/mound.png" alt="mound" onmouseover="MouseOver8()" onmouseout="MouseOut8()" onclick="penguin8()" id="penguin8" class="col-4">
+        <img src="./images/mound.png" alt="mound" onmouseover="MouseOver9()" onmouseout="MouseOut9()" onclick="penguin9()" id="penguin9" class="col-4">
+    </div>
+</body>
+</html>
